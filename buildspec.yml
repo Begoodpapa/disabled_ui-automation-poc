@@ -17,7 +17,7 @@ phases:
       - sudo apt-get -y install curl
       - CHROME_DRIVER_VERSION=`curl -sS https://chromedriver.storage.googleapis.com/LATEST_RELEASE`
       - echo $CHROME_DRIVER_VERSION
-      - wget https://chromedriver.storage.googleapis.com/$CHROME_DRIVER_VERSION/chromedriver_linux64.zip
+      - wget https://chromedriver.storage.googleapis.com/74.0.3729.6/chromedriver_linux64.zip
       - echo # Extract
       - unzip chromedriver_linux64.zip
       - echo # Deploy + Permissions
